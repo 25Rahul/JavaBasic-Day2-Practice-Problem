@@ -1,9 +1,10 @@
-package com.bridgelabz.DaytwoProblems;
+package com.bridgelabz.WhileLoopStatements;
 import java.util.Scanner;
 
 public class NaturalNumberSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the  natural number:");
         int num = scanner.nextInt();
         int i =0;
         int sum=0;
